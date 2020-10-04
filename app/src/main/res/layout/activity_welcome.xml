@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome">
+
+    <Button
+        android:id="@+id/butnBegin"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="150dp"
+        android:layout_height="54dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="begin"
+        android:text="LETS BEGIN"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <Button
+        android:id="@+id/butnBegin3"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="150dp"
+        android:layout_height="57dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="back"
+        android:text="BACK"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="373dp"
+        android:layout_height="454dp"
+        android:layout_marginTop="148dp"
+        android:text="COPY OF SA IDENTITY DOCUMENT OR PASSPORT \n\nCOPY OF COMPANY REGISTRATION PAPERS (MUST REFLECT WHO OWNERS ARE. COR14.3)  \n\nCOPY OF VAT 103I CERTIFICATE (IF YOUR COMPANY IS A REGISTERED VAT VENDOR)  \n\nPROOF OF BANKING DETAILS  \n\nCOPY OF VEHICLE LICENSE PAPERS (VEHICLES USED IN BUSINESS)  \n\nCOPY OF DRIVERS LICENSE OF EACH DRIVER EMPLOYED BY YOU  \n\nPROOF OF ADDRESS (IF STORAGE FACILITIES ARE OFFERED BY YOUR TOWING COMPANY)     "
+        android:textAllCaps="true"
+        android:textColor="#0C0C0C"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="396dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:text="Join the TowAway Family!"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="365dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="76dp"
+        android:text="Documents needed to complete your Registration:"
+        android:textAllCaps="false"
+        android:textColor="#050505"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
