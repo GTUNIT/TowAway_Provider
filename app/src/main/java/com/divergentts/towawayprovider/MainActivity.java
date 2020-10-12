@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         ConnectDB connectdb = new ConnectDB();
         connectdb.connecttaw();
+        System.out.println("MoZZi Aftea Connection");
 
     }
 }
