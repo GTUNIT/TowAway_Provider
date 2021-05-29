@@ -44,24 +44,31 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.98" />
 
+
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="373dp"
-        android:layout_height="454dp"
-        android:layout_marginTop="148dp"
-        android:text="COPY OF SA IDENTITY DOCUMENT OR PASSPORT \n\nCOPY OF COMPANY REGISTRATION PAPERS (MUST REFLECT WHO OWNERS ARE. COR14.3)  \n\nCOPY OF VAT 103I CERTIFICATE (IF YOUR COMPANY IS A REGISTERED VAT VENDOR)  \n\nPROOF OF BANKING DETAILS  \n\nCOPY OF VEHICLE LICENSE PAPERS (VEHICLES USED IN BUSINESS)  \n\nCOPY OF DRIVERS LICENSE OF EACH DRIVER EMPLOYED BY YOU  \n\nPROOF OF ADDRESS (IF STORAGE FACILITIES ARE OFFERED BY YOUR TOWING COMPANY)     "
-        android:textAllCaps="true"
+        android:layout_width="369dp"
+        android:layout_height="378dp"
+        android:fontFamily="sans-serif"
+        android:text="\u2022 Copy Of SA IDENTITY Document or PASSPORT  \n\u2022 Copy OF Company Registration Papers (Must reflect who owners are. COR14.3)  \n\u2022 Copy of VAT 103I Certificate (If your Company is a registered VAT vendor)  \n\u2022 Proof of banking details  \n\u2022 Copy of vehicle license papers (Vehicles used in business)  \n\u2022 Copy of drivers license of each driver employed by you  \n\u2022 Proof of address (If storage facilities are offered by your towing company)     "
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
         android:textColor="#0C0C0C"
-        android:textSize="16sp"
+        android:textDirection="inherit"
+        android:textIsSelectable="false"
+        android:textSize="18sp"
         android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.285"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.659" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="396dp"
-        android:layout_height="46dp"
+        android:layout_width="212dp"
+        android:layout_height="224dp"
         android:layout_marginTop="16dp"
         android:text="Join the TowAway Family!"
         android:textAlignment="center"
@@ -73,19 +80,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="365dp"
-        android:layout_height="64dp"
-        android:layout_marginTop="76dp"
+        android:layout_width="360dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="100dp"
         android:text="Documents needed to complete your Registration:"
         android:textAllCaps="false"
         android:textColor="#050505"
-        android:textSize="20sp"
+        android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
